@@ -2,12 +2,6 @@
 
 library(tidyverse)
 
-getwd()
-setwd("D:/BENA/Data Analytics/Dataquest/Project3_ForestFires")
-
-save.image("ForestFire_analysis.RData")
-savehistory("ForestFire_analysis.Rhistory")
-
 # Import data
 
 forestfires <- read_csv("D:/BENA/Data Analytics/Dataquest/Project3_ForestFires/forestfires.csv")
